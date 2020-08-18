@@ -26,10 +26,10 @@ you can do in V.
 ## Table of Contents
 
 <table>
-    <tr><td width=33% valign=top>
+    <tr><td width=50% valign=top>
 
 * Sorting Algorithms
     * [Bubble Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/bubble_sort.v)
     * [Insertion Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/insertion_sort.v)
 
-</td><td width=33% valign=top>
+</td>
