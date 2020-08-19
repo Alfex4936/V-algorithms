@@ -27,7 +27,7 @@ you can do in V.
 
 <table>
     <tr><td width=50% valign=top>
-
+        
 * Sorting Algorithms
     * [Bubble Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/bubble_sort.v)
     * [Count Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/count_sort.v)
@@ -35,11 +35,11 @@ you can do in V.
     * [Insertion Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/insertion_sort.v)
     * [Merge Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/merge_sort.v)
     * [Quick Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/quick_sort.v)
-    <tr><td width=50% valign=top>
 * Math
     * [Fibonacci Number](https://github.com/Alfex4936/V-algorithms/blob/master/maths/fibo_memoize.v)
     * [Find min and max in Array](https://github.com/Alfex4936/V-algorithms/blob/master/maths/find_min_max.v)
     * [Kadane's Algorithm](https://github.com/Alfex4936/V-algorithms/blob/master/maths/kadane_algorithm.v)
     * [Prime Factorization](https://github.com/Alfex4936/V-algorithms/blob/master/maths/kadane_algorithm.v)
     * [Sum of digits](https://github.com/Alfex4936/V-algorithms/blob/master/maths/sum_of_digits.v)
-</td>
+</td></tr>
+</table>
