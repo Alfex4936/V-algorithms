@@ -31,7 +31,8 @@ you can do in V.
 * Sorting Algorithms
     * [Bubble Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/bubble_sort.v)
 	* [Count Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/count_sort.v)
+	* [Heap Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/heap_sort.v)
     * [Insertion Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/insertion_sort.v)
-    * [Heap Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/heap_sort.v)
+    * [Merge Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/merge_sort.v)
 	* [Quick Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/quick_sort.v)
 </td>
