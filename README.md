@@ -4,7 +4,8 @@
 </p>
 <h1>Algorithms in V language</h1>
 
-[vlang.io](https://vlang.io)
+[vlang.io](https://vlang.io) |
+[Docs](https://github.com/Alfex4936/v/blob/master/doc/docs.md)
 
 </div>
 
