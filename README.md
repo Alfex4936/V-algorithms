@@ -27,7 +27,7 @@ you can do in V.
 ## Table of Contents
 
 <table>
-    <tr><td width=50% valign=top>
+    <tr><td width=44% valign=top>
         
 * Sorting Algorithms
     * [Bubble Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/bubble_sort.v)
@@ -44,5 +44,8 @@ you can do in V.
     * [Kadane's Algorithm](https://github.com/Alfex4936/V-algorithms/blob/master/maths/kadane_algorithm.v)
     * [Prime Factorization](https://github.com/Alfex4936/V-algorithms/blob/master/maths/kadane_algorithm.v)
     * [Sum of digits](https://github.com/Alfex4936/V-algorithms/blob/master/maths/sum_of_digits.v)
+</td><td width=44% valign=top>
+* Graph
+    * [Binary Search Tree](https://github.com/Alfex4936/V-algorithms/blob/master/graph/bst.v)
 </td></tr>
 </table>
