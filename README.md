@@ -45,6 +45,7 @@ you can do in V.
     * [Prime Factorization](https://github.com/Alfex4936/V-algorithms/blob/master/maths/kadane_algorithm.v)
     * [Sum of digits](https://github.com/Alfex4936/V-algorithms/blob/master/maths/sum_of_digits.v)
 </td><td width=44% valign=top>
+    
 * Graph
     * [Binary Search Tree](https://github.com/Alfex4936/V-algorithms/blob/master/graph/bst.v)
 </td></tr>
