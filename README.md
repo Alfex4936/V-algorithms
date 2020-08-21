@@ -36,6 +36,7 @@ you can do in V.
     * [Introspective Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/intro_sort.v)
     * [Merge Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/merge_sort.v)
     * [Quick Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/quick_sort.v)
+    * [Selection Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/selection_sort.v)
 * Math
     * [Fibonacci Number](https://github.com/Alfex4936/V-algorithms/blob/master/maths/fibo_memoize.v)
     * [Find min and max in Array](https://github.com/Alfex4936/V-algorithms/blob/master/maths/find_min_max.v)
