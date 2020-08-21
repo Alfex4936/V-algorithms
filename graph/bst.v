@@ -35,15 +35,13 @@ fn main() {
 fn (mut t Tree) insert(val int) &Tree {
     // println(t.str())
     if val < t.value {
-        left_check := t.left.exist() or { false }
-        if left_check {
+        if t.left.exist() {
             return t.left.insert(val)
         } else {
             t.left = &Tree{value: val, left: &Tree(0), right: &Tree(0)}
         }
     } else {
-        right_check := t.right.exist() or { false }
-        if right_check {
+        if t.right.exist() {
             return t.right.insert(val)
         } else {
             t.right = &Tree{value: val, left: &Tree(0), right: &Tree(0)}
@@ -53,7 +51,7 @@ fn (mut t Tree) insert(val int) &Tree {
     return t
 }
 
-fn (t &Tree) exist() ?bool {
+fn (t &Tree) exist() bool {
     if t == &Tree(0) {
         return false
     }
