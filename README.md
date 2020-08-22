@@ -27,7 +27,7 @@ you can do in V.
 ## Table of Contents
 
 <table>
-    <tr><td width=44% valign=top>
+    <tr><td width=40% valign=top>
         
 * Sorting Algorithms
     * [Bubble Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/bubble_sort.v)
@@ -38,6 +38,7 @@ you can do in V.
     * [Merge Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/merge_sort.v)
     * [Quick Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/quick_sort.v)
     * [Selection Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/selection_sort.v)
+    * [Sleep Sort](https://github.com/Alfex4936/V-algorithms/blob/master/sorting/sleep_sort.v)
 * Math
     * [Fibonacci Number](https://github.com/Alfex4936/V-algorithms/blob/master/maths/fibo_memoize.v)
     * [Find min and max in Array](https://github.com/Alfex4936/V-algorithms/blob/master/maths/find_min_max.v)
