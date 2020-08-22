@@ -1,35 +1,35 @@
 struct Tree {
     value int
 mut:
-    left &Tree
-    right &Tree
+    left &Tree = &Tree(0)
+    right &Tree = &Tree(0)
 }
 
 /*
-BST (Binary Search Tree)
+    BST (Binary Search Tree)
 
 1. its value is strictly greater than the values of every node to its left
 2. its value is less than or equal to the values of every node to its right
 */
 fn main() {
-    mut tree := &Tree{value: 10, left: &Tree(0), right: &Tree(0)}  // root
+    mut tree := &Tree{value: 30}  // root
 
-    nodes := [5, 15, 2, 5, 13, 22, 1, 14]
+    nodes := [15, 60, 7, 22, 45, 75, 17, 27]
 
     for node in nodes {
         tree.insert(node)
     }
 
-    println(tree.value)  // 10
-    println(tree.left.value)  // 5
-    println(tree.left.right.value)  // 5
-    println(tree.left.left.value)  // 2
-    println(tree.left.left.left.value)  // 1
+    println(tree.value)  // 30
+    println(tree.left.value)  // 15
+    println(tree.left.right.value)  // 22
+    println(tree.left.right.right.value)  // 27
+    println(tree.left.right.left.value)  // 17
+    println(tree.left.left.value)  // 7
 
-    println(tree.right.value)  // 15
-    println(tree.right.left.value)  // 13
-    println(tree.right.left.right.value)  // 14
-    println(tree.right.right.value)  // 22
+    println(tree.right.value)  // 60
+    println(tree.right.left.value)  // 45
+    println(tree.right.right.value)  // 75
 }
 
 fn (mut t Tree) insert(val int) &Tree {
@@ -38,13 +38,13 @@ fn (mut t Tree) insert(val int) &Tree {
         if t.left.exist() {
             return t.left.insert(val)
         } else {
-            t.left = &Tree{value: val, left: &Tree(0), right: &Tree(0)}
+            t.left = &Tree{value: val}
         }
     } else {
         if t.right.exist() {
             return t.right.insert(val)
         } else {
-            t.right = &Tree{value: val, left: &Tree(0), right: &Tree(0)}
+            t.right = &Tree{value: val}
         }
     }
 
