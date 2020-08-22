@@ -17,7 +17,7 @@ fn main() {
     println('Random array length : $test_arr.len')
     
     sw := time.new_stopwatch({})
-    heap_sort<int>(mut test_arr)  // Heap Sort
+    heap_sort(mut test_arr)  // Heap Sort
     println('Took : ${sw.elapsed().milliseconds()}ms')
 
     println('Result : $test_arr')
@@ -26,7 +26,7 @@ fn main() {
 /*  Heap Sort
     Time Complexity O(nlogn) | Space Complexity O(1)
 */
-fn heap_sort<T>(mut array []int) {
+fn heap_sort(mut array []int) {
     n := array.len
     
     for i := n/2; i > -1; i-- {

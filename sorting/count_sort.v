@@ -18,7 +18,7 @@ fn main() {
 
 	sw := time.new_stopwatch({})
 	min, mut max := find_min_max(mut test_arr)
-	count_sort<int>(mut test_arr, min, max - min)
+	count_sort(mut test_arr, min, max - min)
 
 	println('Took : ${sw.elapsed().microseconds()}μs')
 	println('Result : $test_arr')
@@ -27,7 +27,7 @@ fn main() {
 /*  Count Sort
 	All: O(n) Time | O(n) Space
 */
-fn count_sort<T>(mut array []int, min int, max int) {
+fn count_sort(mut array []int, min int, max int) {
 
 	mut buckets := []int{ len: max + 1, init: 0 }
 	// equivalent to [0 for _ in range(max + 1)]

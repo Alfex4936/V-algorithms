@@ -13,14 +13,14 @@ fn main() {
 	}
 	println('Random array length : $test_arr.len')
 	sw := time.new_stopwatch({})
-	bubble_sort<int>(mut test_arr)
+	bubble_sort(mut test_arr)
 	println('Took : ${sw.elapsed().milliseconds()}ms')
 	println('Result : $test_arr')
 }
 
 
 // Bubble Sort
-fn bubble_sort<T>(mut array []int) {
+fn bubble_sort(mut array []int) {
 	for i in 0..array.len {
 		for j in 0..array.len - 1 - i {
 			if array[j] > array[j + 1] {
