@@ -48,5 +48,8 @@ you can do in V.
     
 * Graph
     * [Binary Search Tree](https://github.com/Alfex4936/V-algorithms/blob/master/graph/bst.v)
+* Strings
+    * [Balanced Brackets](https://github.com/Alfex4936/V-algorithms/blob/master/strings/nested_bracket.v)
+    * [Palindrome check](https://github.com/Alfex4936/V-algorithms/blob/master/strings/palindrome.v)
 </td></tr>
 </table>
