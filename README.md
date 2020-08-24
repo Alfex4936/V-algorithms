@@ -47,6 +47,8 @@ you can do in V.
     * [Sum of digits](https://github.com/Alfex4936/V-algorithms/blob/master/maths/sum_of_digits.v)
 </td><td width=44% valign=top>
     
+* Array
+    * [Subarray Sort](https://github.com/Alfex4936/V-algorithms/blob/master/array/subarray_sort.v)
 * Graph
     * [Binary Search Tree](https://github.com/Alfex4936/V-algorithms/blob/master/graph/bst.v)
 * Strings
