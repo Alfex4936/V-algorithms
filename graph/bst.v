@@ -53,7 +53,7 @@ fn (mut t Tree) insert(val int) &Tree {
 }
 
 fn (t &Tree) exist() bool {
-	if t == &&Tree(0) {
+	if t == &Tree(0) {
 		return false
 	}
 	return true
