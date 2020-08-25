@@ -19,7 +19,6 @@ fn main() {
 	assert subarray_sort(mut test_array3) == [1, 12]
 }
 
-// O(n) Time | O(n) Space
 // can possibly optimized to O(n) | O(1)
 [direct_array_access]
 fn subarray_sort(mut array []int) []int {
