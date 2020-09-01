@@ -21,12 +21,12 @@ fn main() {
 
 // can possibly optimized to O(n) | O(1)
 [direct_array_access]
-fn subarray_sort(mut array []int) []int {
-	mut array_origin := array[0..array.len].map(it)
-	array.sort()
+fn subarray_sort(mut arr []int) []int {
+	mut array_origin := arr[0..arr.len].map(it)
+	arr.sort()
 	mut stack := []int{}
-	for i in 0 .. array.len {
-		if array[i] != array_origin[i] {
+	for i in 0 .. arr.len {
+		if arr[i] != array_origin[i] {
 			stack << i
 		}
 	}

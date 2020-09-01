@@ -27,6 +27,7 @@ fn main() {
 /*  Count Sort
 	All: O(n) Time | O(n) Space
 */
+[direct_array_access]
 fn count_sort(mut array []int, min int, max int) {
 
 	mut buckets := []int{ len: max + 1, init: 0 }

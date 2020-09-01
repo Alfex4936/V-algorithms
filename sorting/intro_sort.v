@@ -29,6 +29,7 @@ fn main() {
 }
 
 // Time Complexity O(nlogn) | Space Complexity O(logn) | not stable
+[direct_array_access]
 fn introsort_helper(mut array []int, start int, end_ int, threshold int, max_depth_ int) {
     mut max_depth := max_depth_
     mut end := end_
@@ -47,6 +48,7 @@ fn introsort_helper(mut array []int, start int, end_ int, threshold int, max_dep
     insertion_sort(mut array, start, end)
 }
 
+[direct_array_access]
 fn partition(mut array []int, low int, high int, pivot int) int {
     mut i := low
     mut j := high
@@ -84,6 +86,7 @@ fn median_of_three(mut array []int, lowIdx int, midIdx int, highIdx int) int {
     Average O(n^2) Time | O(1) Space
     Worst (On^2) Time | O(1) Space
 */
+[direct_array_access]
 fn insertion_sort(mut array []int, start int, end int) {
     for i in start..end {  // range(1, len(array))
         mut j := i
@@ -100,6 +103,7 @@ fn insertion_sort(mut array []int, start int, end int) {
 /*  Heap Sort
     Time Complexity O(nlogn) | Space Complexity O(1)
 */
+[direct_array_access]
 fn heap_sort(mut array []int) {
     n := array.len
     
@@ -113,7 +117,7 @@ fn heap_sort(mut array []int) {
     }
 }
 
-
+[direct_array_access]
 fn heapify(mut array []int, n int, i int) {
     mut largest := i
     left := 2 * i + 1

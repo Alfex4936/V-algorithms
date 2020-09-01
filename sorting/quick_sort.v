@@ -37,6 +37,7 @@ fn quick_sort(mut array []int, left int, right int) {
 }
 
 // Lomuto's partition scheme
+[direct_array_access]
 fn partition(mut array []int, low int, high int) int {
     pivot_index := rand.int_in_range(low, high)
     pivot := array[pivot_index]

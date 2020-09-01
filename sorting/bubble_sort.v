@@ -20,6 +20,7 @@ fn main() {
 
 
 // Bubble Sort
+[direct_array_access]
 fn bubble_sort(mut array []int) {
 	for i in 0..array.len {
 		for j in 0..array.len - 1 - i {

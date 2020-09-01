@@ -26,6 +26,7 @@ fn main() {
 /*  Heap Sort
     Time Complexity O(nlogn) | Space Complexity O(1)
 */
+[direct_array_access]
 fn heap_sort(mut array []int) {
     n := array.len
     
@@ -39,7 +40,7 @@ fn heap_sort(mut array []int) {
     }
 }
 
-
+[direct_array_access]
 fn heapify(mut array []int, n int, i int) {
     mut largest := i
     left := 2 * i + 1

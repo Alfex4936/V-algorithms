@@ -35,6 +35,7 @@ fn merge_sort(mut array []int, start int, end int) {
 	}
 }
 
+[direct_array_access]
 fn merge(mut array []int, start int, mid int, end int) {
 	mut i := start
 	mut j := mid + 1

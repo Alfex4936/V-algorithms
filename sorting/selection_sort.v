@@ -27,6 +27,7 @@ fn main() {
 /*  Selection Sort
     All : O(n^2) Time | O(1) Space
 */
+[direct_array_access]
 fn selection_sort(mut array []int) {
     mut current_idx := 0
     for current_idx < array.len - 1 {
